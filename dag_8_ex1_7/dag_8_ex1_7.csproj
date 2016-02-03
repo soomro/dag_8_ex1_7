@@ -7,7 +7,7 @@
     <ProjectGuid>{858213FC-9BC9-427C-8BB4-C23FAE2B6326}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>dag_8_ex1_7</RootNamespace>
+    <RootNamespace>Sales</RootNamespace>
     <AssemblyName>dag_8_ex1_7</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -43,8 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Employee.cs" />
+    <Compile Include="Person.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sales.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

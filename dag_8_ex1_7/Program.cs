@@ -13,7 +13,13 @@ namespace Sales
         */
         static void Main(string[] args)
         {
+            // skapa  sales
 
+            int i = 1;
+
+            i++;
+            i--;
+            Console.WriteLine("\n");
         }
     }
 }
